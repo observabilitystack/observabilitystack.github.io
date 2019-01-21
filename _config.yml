@@ -1,0 +1,7 @@
+---
+title: o12stack.org
+url: https://observabilitystack.org
+remote_theme: pmarsceill/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
