@@ -22,16 +22,21 @@ Have `minikube` and `helm` installed on your client:
     brew cask install minikube
     brew install kubernetes-cli helm
 
-
 Set up Minikube and Helm:
 
 <div class="code-example" markdown="1">
 We use the [`hyperkit`](https://github.com/kubernetes/minikube/blob/master/docs/drivers.md#hyperkit-driver) hypervisor on our Macs as this avoids hasseling with Oracle Virtual Box.
 </div>
 ```bash
-minikube start --vm-driver=hyperkit
+minikube start --vm-driver=hyperkit --memory 8192 --cpus 3
 minikube addons enable ingress
 helm init
+```
+
+```
+$ kubectl get pods --all-namespaces
+NAMESPACE     NAME                                       READY   STATUS    RESTARTS   AGE
+kube-system   tiller-deploy-69ffbf64bc-n9lss             0/1     Running   0          11s
 ```
 
 ### Disposing
