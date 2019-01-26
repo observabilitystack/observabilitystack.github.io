@@ -6,10 +6,9 @@ has_children: true
 ---
 # observabilitystack.org
 
-The goal of this project is to leverage a integrated monitoring  & observability 
+The goal of this project is to leverage an integrated monitoring  & observability 
 solution based on free open source software. The observability stack is easy to 
-install and a working configuration by default. The stack isintegration tested in Kubernetes (Minikube) and to avoid the Copy&Pasta of YAML files, installation is
-based on Helm.
+install and a working configuration by default. The stack is integration tested in Kubernetes (Minikube) and to avoid the Copy&Pasta of YAML files, installation is based on Helm.
 {: .fs-6 .fw-300}
 
 ## License
