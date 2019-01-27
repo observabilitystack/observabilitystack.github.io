@@ -14,9 +14,11 @@ these steps to install the _o12stack_ into your cluster. We use
 
 * * *
 
-> Before installing the observability stack into a Kubernetes cluster 
+Heads up!
+{: .label .label-red }
+> _Before installing the observability stack into a Kubernetes cluster 
 > (maybe even a production system), we urge you to test things in a test
-> environment!
+> environment!_
 
 ## Client
 
