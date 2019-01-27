@@ -6,10 +6,34 @@ has_children: true
 ---
 # observabilitystack.org
 
-The goal of this project is to leverage an integrated monitoring  & observability 
-solution based on free open source software. The observability stack is easy to 
-install and a working configuration by default. The stack is integration tested in Kubernetes (Minikube) and to avoid the Copy&Pasta of YAML files, installation is based on Helm.
+Looking for a free open source solution to a hassle free shared nothing
+observability solution in Kubernetes? Look no further, here you are.
 {: .fs-6 .fw-300}
+
+[Quick start](docs/quickstart.html){: .btn .btn-purple }
+[View on GitHub](https://github.com/observabilitystack/k8s-stack){: .btn }
+
+* * *
+
+The _observabilitystack_ (o12stack) combines the best-in-class open source
+monitoring and observability tools in a pre-configured turn-key solution.
+Using the Kubernetes package manager [Helm](https://helm.sh/) you can deploy
+the full stack in seconds. The stack is fully configurable and extendble 
+via _Helm_. Of course you can enable and disable tools for a perfect fit 
+to your infrastructure.
+
+## Tools included
+
+* __Prometheus__ (Cluster and Pod metrics)
+* __Filebeat__ (Logfile harvester)
+* __Logstash__ (Logfile enrichment and routing)
+* __Elasticsearch__ (Metric storage)
+* __Graylog__ (Logfile visualisation)
+* __Grafana__ (Metric visualisation)
+
+## Tools incubating
+
+* Kibana
 
 ## License
 
