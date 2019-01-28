@@ -47,6 +47,15 @@ NAMESPACE     NAME                                       READY   STATUS    RESTA
 kube-system   tiller-deploy-69ffbf64bc-n9lss             0/1     Running   0          11s
 ```
 
+## Configure ingress domain
+
+Configure an ingress domain (or sobdomain) to point at your cluster. If you're running
+Minikube, utilize `local.o12stack.org`:
+
+```
+sudo bash -c 'echo "$(minikube ip)    local.o12stack.org" >> /etc/hosts'
+```
+
 Now your good to go, [deploy the _o12stack_](quickstart.html).
 
 ### Disposing
