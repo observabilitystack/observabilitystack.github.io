@@ -40,8 +40,12 @@ minikube addons enable ingress
 ```
 
 Set up the Helm server component _Tiller_. Check that it's up and running:
-```
-$ helm init
+
+    $ helm init
+
+Check that it's up and running:
+
+```bash
 $ kubectl get pods --all-namespaces
 NAMESPACE     NAME                                       READY   STATUS    RESTARTS   AGE
 kube-system   tiller-deploy-69ffbf64bc-n9lss             0/1     Running   0          11s
@@ -53,6 +57,7 @@ Configure an ingress domain (or sobdomain) to point at your cluster. If you're r
 Minikube, utilize `local.o12stack.org`:
 
 ```
+sudo sed -i '' '/local.o12stack.org/d' /etc/hosts
 sudo bash -c 'echo "$(minikube ip)    local.o12stack.org" >> /etc/hosts'
 ```
 
