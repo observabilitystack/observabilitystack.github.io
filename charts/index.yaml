@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  elasticsearch-dummy:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-02-13T23:02:41.742481+01:00
+    description: Deploys a non-production ready elasticsearch as a single node cluster.
+    digest: 6e836bb2b0a233c89cef3a18b0e9449d440d7112b04fa937553160ee79fc7b54
+    name: elasticsearch-dummy
+    urls:
+    - https://observabilitystack.org/charts/elasticsearch-dummy-0.1.0.tgz
+    version: 0.1.0
+  oom-event-generator:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-02-13T23:02:41.742674+01:00
+    description: A Helm Chart for the Xing OOM event generator
+    digest: a2bd1cfb0e7f1a7f56f2d05b78e5a2ec296e22fe94280834e2b05256e6f5ad42
+    name: oom-event-generator
+    urls:
+    - https://observabilitystack.org/charts/oom-event-generator-0.1.0.tgz
+    version: 0.1.0
+generated: 2019-02-13T23:02:41.741849+01:00
