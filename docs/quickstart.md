@@ -6,7 +6,7 @@ nav_order: 2
 ---
 
 ```
-helm repo add o12stack https://observabilitystack.org/charts
+helm repo add o12stack https://o12stack.org/charts
 ```
 
 # Quick Start
