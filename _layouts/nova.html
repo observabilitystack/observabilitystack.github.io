@@ -88,14 +88,9 @@
 			    <div class="footer-col col-6 col-lg-3">
 				    <h4 class="col-heading">Contributors</h4>
 				    <ul class="list-unstyled">
-						{% for c in site.github.organization_members %}
-					    <li><a href="{{ c.html_url }}">{{ c.login }}</a></li>
-						{% endfor %}
-{%comment%}
 						{% for c in site.github.contributors %}
 					    <li><a href="{{ c.html_url }}">{{ c.login }}</a></li>
 						{% endfor %}
-{%endcomment%}
 				    </ul>
 			    </div><!--//footer-col-->
 			    <div class="footer-col col-6 col-lg-3">
