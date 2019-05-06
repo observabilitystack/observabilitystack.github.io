@@ -1,9 +1,11 @@
 ---
 title: o12stack.org
+description: o12stack.org - Kubernetes logging for smaller clusters, more of them
+author: Nikolaus Winter & Torsten Köster
+github_org: observabilitystack
 url: https://o12stack.org
-remote_theme: pmarsceill/just-the-docs
 
-search_enabled: true
-
-plugins:
-  - jekyll-remote-theme
+#remote_theme: pmarsceill/just-the-docs
+#search_enabled: true
+#plugins:
+#  - jekyll-remote-theme
