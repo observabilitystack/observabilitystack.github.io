@@ -5,7 +5,6 @@ author: Nikolaus Winter & Torsten Köster
 github_org: observabilitystack
 url: https://o12stack.org
 
-#remote_theme: pmarsceill/just-the-docs
-#search_enabled: true
-#plugins:
-#  - jekyll-remote-theme
+# documentation theme
+theme: "just-the-docs"
+search_enabled: true
