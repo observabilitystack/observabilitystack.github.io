@@ -5,7 +5,7 @@ parent: Home
 nav_order: 1
 ---
 
-# Setting up the target system
+# Preparing up the target system
 
 We'll walk you through the installation in a local [Minikube](https://kubernetes.io/docs/setup/minikube/) installation. Adapt
 these steps to install the _o12stack_ into your cluster. We use
@@ -37,6 +37,7 @@ more memory and cpu:
 ```bash
 minikube start --vm-driver=hyperkit --memory 8192 --cpus 3
 minikube addons enable ingress
+minikube addons enable metrics-server
 ```
 
 Set up the Helm server component _Tiller_. Check that it's up and running:
@@ -63,7 +64,10 @@ sudo bash -c 'echo "$(minikube ip)    local.o12stack.org" >> /etc/hosts'
 
 Now your good to go, [deploy the _o12stack_](quickstart.html).
 
-### Disposing
+[Next: Deploy o12stack](quickstart.html){: .btn .btn-purple }
+
+## Disposing
+{: .text-grey-dk-000}
 
 When you're done evaluating, shut everything down and dispose the cluster.
 

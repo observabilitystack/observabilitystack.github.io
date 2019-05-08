@@ -4,36 +4,42 @@ title: Home
 nav_order: 1
 has_children: true
 ---
-# observabilitystack.org
+# o12stack.org documentation
 
-Looking for a free open source solution to a hassle free shared nothing
-observability solution in Kubernetes? Look no further, here you are.
+We strive to build a free and open source observability solution 
+for Kubernetes with "smaller clusters, more of them" in mind.
 {: .fs-6 .fw-300}
 
-[Quick start](docs/quickstart.html){: .btn .btn-purple }
+[Demos / Proof of concepts](https://github.com/observabilitystack/demo/blob/master/README.md){: .btn .btn-purple }
+[Quick start](docs/quickstart.html){: .btn }
 [View on GitHub](https://github.com/observabilitystack/k8s-stack){: .btn }
 
 * * *
 
-The _observabilitystack_ (o12stack) combines the best-in-class open source
-monitoring and observability tools in a pre-configured turn-key solution.
-Using the Kubernetes package manager [Helm](https://helm.sh/) you can deploy
-the full stack in seconds. The stack is fully configurable and extendble 
-via _Helm_. Of course you can enable and disable tools for a perfect fit 
-to your infrastructure.
+The _observabilitystack_ (o12stack) strives to combine the best-in-class 
+open source monitoring and observability tools in a pre-configured turn-key 
+solution. Using the Kubernetes package manager [Helm](https://helm.sh/) 
+you can deploy the full stack in seconds. The stack is fully configurable 
+and extendble via _Helm_. Of course you can enable and disable tools for 
+a perfect fit to your infrastructure.
 
-## Tools included
+* * *
 
-* __Prometheus__ (Cluster and Pod metrics)
+Coming soon
+{: .label .label-yellow }
+
+_We're currently ramping up our efforts to provide a seamless experience.
+Stay tuned!_
+{: .text-grey-dk-000}
+
+## Tools to be included
+
 * __Filebeat__ (Logfile harvester)
 * __Logstash__ (Logfile enrichment and routing)
 * __Elasticsearch__ (Metric storage)
 * __Graylog__ (Logfile visualisation)
+* __Prometheus__ (Cluster and Pod metrics)
 * __Grafana__ (Metric visualisation)
-
-## Tools incubating
-
-* Kibana
 
 ## License
 

@@ -5,9 +5,10 @@ parent: Home
 nav_order: 2
 ---
 
-```
-helm repo add o12stack https://o12stack.org/charts
-```
+Work in Progress
+{: .label .label-yellow }
+
+We're still working on those Helm charts. Stay tuned.
 
 # Quick Start
 
@@ -15,6 +16,11 @@ helm repo add o12stack https://o12stack.org/charts
 helm dependency update
 helm install . --namespace=monitoring
 ```
+
+```
+helm repo add o12stack https://o12stack.org/charts
+```
+
 
 ```
 $ kubectl get pods -n monitoring
